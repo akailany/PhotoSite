@@ -1,0 +1,33 @@
+  <head>
+    <title>PhotoSite User List</title>
+  </head>
+
+    <body>
+      <h1>PhotoSite User List</h1>
+      <br>
+      <p>This page will display a table with all the user's<br>
+      first and last name along with their Id</p>
+      <p>There are <%=@users_all.count%> Users</p>
+      <br>
+      <br>
+      <br>
+    <table cellpadding="5" cellspacing="5">
+      <tr>
+        <td><b>User ID</b></td>
+        <td><b>First Name</b></td>
+        <td><b>Last Name</b></td>
+        <td><b>Profile</b></td>
+      </tr>
+      <% @users_all.find_each do |user| %>
+        <tr>
+          <td><%=user.id %></td>
+          <td><%=user.first_name %></td>
+          <td><%=user.last_name %></td>
+          <td><%=link_to("Link", "/photos/index/" + user.id.to_s) %></td>
+        </tr>
+      <% end %>
+    </table>
+
+    </body>
+
+
