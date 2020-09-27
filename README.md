@@ -27,6 +27,10 @@ This repo contains a simple Ruby on Rails (RoR) project that mimics a photo site
 
 The second URL (**photo/index/:id**) contains the profile of that specific user as well as their immages. In addition, these immages have a comment section that displays comments made by other users on the picture. All users are linkable profiles.
 
+# Creating the EC2 instance
+
+Follow the YouTube video in the following link:
+
 
 
 
