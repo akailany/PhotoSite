@@ -23,7 +23,7 @@ The second URL (**photo/index/:id**) contains the profile of that specific user 
 
 
 **Creating the EC2 instance** <br>
-Follow the YouTube video in this [link](youtube link to create and configure EC2) <br>
+Follow the YouTube video in this [link](https://youtu.be/gT-Uw3nV728) <br>
 
 <a name = "create-docker-container" /> <br>
 
