@@ -21,6 +21,7 @@ The second URL (**photo/index/:id**) contains the profile of that specific user 
 
 <a name = "create-ec2" /> <br>
 
+
 **Creating the EC2 instance** <br>
 Follow the YouTube video in this [link](youtube link to create and configure EC2) <br>
 
@@ -85,6 +86,7 @@ Follow the YouTube video in this [link](youtube link to create and configure EC2
 	Now this image is avaiable via the internet so we will be able to pull it on our EC2 instance.<br>
 	
 
+<a name = "2-demonstration-of-application-working" /> <br>
 
 ## 2. Demo of the RoR application running on AWS
 1. **Set up Amazon EC2** <br>
@@ -163,12 +165,19 @@ Follow the YouTube video in this [link](youtube link to create and configure EC2
      After accessing your instance using the above [link](http://54.189.117.184:3000), you can monitor usage of your instance on Amazon AWS console as seen below:<br>
      ![instance usage](pics-readme/instance-usage.jpeg)
      
+<a name = "3-things-that-are-not-working" /> <br>
 	
 ## 3. Things that are not working
-Thankfully everything in my environment is working, so I have no input for this section.
+Thankfully everything in my environment is working, so I have no input for this section.<br>
+
+
+<a name = "4-youtube-walkthrough" /> <br>
 
 ## 4. YouTube Video demoing the PhotoSite working
-Please watch this [link](https://youtu.be/gT-Uw3nV728)
+Please watch this [link](https://youtu.be/gT-Uw3nV728)<br>
+
+<a name = "5-adv---what-happens-when-an-instance-stops-running-what-shall-i-do" /> <br>
+
 ## 5. Special Issue 1: What happens when an instance stops running?
 The problem that rises when an instance stops is that you lose the whole set up for your environment and data. So when you launch your instance again you will be forced to re-set up your instance again following all the tedious above steps mentioned.<br>
 
@@ -176,6 +185,7 @@ To alleviate this issue, we can create our own AMI, using the instance that we w
 
 Thus, you can casually use a ''' docker run ''' command as demonstrated above and you'll be up and running again. Keep in mind, this new instance has a different IPv4 address, so you will need to use that to access your website again.<br>
 	
+<a name = "6-adv---what-happens-when-you-reboot-an-instance-what-can-be-done" /> <br>
 
 ## 6. Special Issue 2: What happens when you reboot an instance and what can you do?
 When you reboot an instance, it acquires a new different IP address, so you can no longer access it with whatever IP address you have been using.<br>
