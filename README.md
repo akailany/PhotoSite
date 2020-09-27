@@ -5,9 +5,10 @@
 # Table of Contents
 1. Intro and Purpose
 
-        Creating the EC2 instance
+     
+ `<addr>`Creating the EC2 instance
         
-        Creating a local docker image and pushing it to the Docker Hub
+`<addr>`Creating a local docker image and pushing it to the Docker Hub
         
 
 2. Demo of the RoR application running on AWS
