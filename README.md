@@ -90,7 +90,7 @@ Follow the YouTube video in this [link][youtube link to create and configure EC2
 1. **Set up Amazon EC2** <br>
 	You need to sign up with an Amazon AWS account beofre you can perform these steps.
 	1. Navigate to the EC2 Dashboard, and click on instances on the left menu.<br>
-		![EC2-Dashboard](pics-readme/EC2-Dashboard.JPG) <br>
+		![EC2-Dashboard](pics-readme/EC2-Dashboard.jpeg) <br>
 		Now click on the Launch Instances
 	2. Select the following free tier AMI.<br>
 		![AMI](pics-readme/AMI.JPG) <br>
