@@ -115,7 +115,7 @@ Follow the YouTube video in this [link](youtube link to create and configure EC2
      Choose Connect which redirects you to the following page:
 	![ssh](pics-readme/SSH.jpeg)<br>
 	
-	In a new teriminal window, navigate to the folder where you downloaded the keypair certificationand        run the following command which was give to us from AWS as shown in the above image (You might need to      use sudo, as I did) <br>
+	In a new teriminal window, navigate to the folder where you downloaded the keypair certification and run the following command which was give to us from AWS as shown in the above image (You might need to use sudo, as I did) <br>
 	```
 	sudo ssh -i "photositeR1.pem" ec2-user@ec2-54-189-117-184.us-west-2.compute.amazonaws.com
 	```
@@ -125,7 +125,8 @@ Follow the YouTube video in this [link](youtube link to create and configure EC2
 	![ssh success](pics-readme/terminal-instance.jpeg)
 	<br>
 3. **Pulling Docker on your EC2 instance and running it** <br>
-     I used the following commands which I obtained from this [link]             (https://docs.aws.amazon.com/AmazonECS/latest/developerguide/docker-basics.html).<br>
+     I used the following commands which I obtained from this [link](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/docker-basics.html).<br>
+     
 	1.Update installed packages on your instance
 	```
 	sudo yum update -y
