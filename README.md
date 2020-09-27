@@ -1,24 +1,16 @@
-# README
+# A simple PhotoSite (RoR) project, dockerized and deployed on Amazon's AWS Elastic Container Service (EC2)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
 
-* Ruby version
+# Table of Contents
+1. Intro and Purpose
+        Creating the EC2 instance
+        Creating a local docker image and pushing it to the Docker Hub
 
-* System dependencies
+2. Demo of the RoR application running on AWS
 
-* Configuration
+3. Things that are not working
+4. YouTube Video demoing the PhotoSite working
+5. Special Issue 1: What happens when an instance stops running?
+6. Special Issue 2: What happens when you reboot an instance and what can you do?
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
