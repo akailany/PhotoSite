@@ -6,9 +6,9 @@
 1. Intro and Purpose
 
      
- `<addr>`Creating the EC2 instance
+ *Creating the EC2 instance
         
-`<addr>`Creating a local docker image and pushing it to the Docker Hub
+*Creating a local docker image and pushing it to the Docker Hub
         
 
 2. Demo of the RoR application running on AWS
