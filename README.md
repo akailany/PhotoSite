@@ -22,7 +22,7 @@ The second URL (**photo/index/:id**) contains the profile of that specific user 
 <a name = "create-ec2" /> <br>
 
 **Creating the EC2 instance** <br>
-Follow the YouTube video in this [link][youtube link to create and configure EC2] <br>
+Follow the YouTube video in this [link](youtube link to create and configure EC2) <br>
 
 <a name = "create-docker-container" /> <br>
 
@@ -91,23 +91,30 @@ Follow the YouTube video in this [link][youtube link to create and configure EC2
 	You need to sign up with an Amazon AWS account beofre you can perform these steps.
 	1. Navigate to the EC2 Dashboard, and click on instances on the left menu.<br>
 		![EC2-Dashboard](pics-readme/EC2-Dashboard.jpeg) <br>
-		Now click on the Launch Instances
+		Now click on the Launch Instances<br>
+		
 	2. Select the following free tier AMI.<br>
-		![AMI](pics-readme/AMI.JPG) <br>
+		![AMI](pics-readme/AMI.jpeg) <br>
+		
 	3. Choose the Instance type <br>
-		![Instance Type](pics-readme/instance-type.JPG) <br>
+		![Instance Type](pics-readme/instance-type.jpeg) <br>
+		
 	4. Configure the Security group <br>
-		![Security Groups](pics-readme/security-group.JPG) <br>
-		I am only opening port 3000 as shown in the above picture, because I am exposing it in my                   Dockerfile<br>
+		![Security Groups](pics-readme/security-group.jpeg) <br>
+		
+	  I am only opening port 3000 as shown in the above picture, because I am exposing it in my Dockerfile<br>
+	  
 	5. Create a new key pair. I don't have a good screenshot but this is my key pair "photositeR1"<br>
-		![Key pair](pic-readme/keypair.JPG)
-		You also might be prompted to download a certification file which you will later use to access             this instance
+		![Key pair](pics-readme/keypair.jpeg)
+		You also might be prompted to download a certification file which you will later use to access this instance<br>
+		
 2. **Connect to your EC2 instance via ssh** <br>
-	![connecting to the instance](pics-readme/connecting-to-instance.JPG)
+	![connecting to the instance](pics-readme/connecting-to-instance.jpeg)
      <br>
 	
      Choose Connect which redirects you to the following page:
-	![ssh](pics-readme/SSH.JPG)
+	![ssh](pics-readme/SSH.jpeg)<br>
+	
 	In a new teriminal window, navigate to the folder where you downloaded the keypair certificationand        run the following command which was give to us from AWS as shown in the above image (You might need to      use sudo, as I did) <br>
 	```
 	sudo ssh -i "photositeR1.pem" ec2-user@ec2-54-189-117-184.us-west-2.compute.amazonaws.com
@@ -115,7 +122,7 @@ Follow the YouTube video in this [link][youtube link to create and configure EC2
 	"photositeR1.pem" is the name of the certification file I mentioned above<br>
      
      If you did all the above steps correctly, you will be treated with the following terminal message <br>
-	![ssh success](pics-readme/terminal-instance.JPG)
+	![ssh success](pics-readme/terminal-instance.jpeg)
 	<br>
 3. **Pulling Docker on your EC2 instance and running it** <br>
      I used the following commands which I obtained from this [link]             (https://docs.aws.amazon.com/AmazonECS/latest/developerguide/docker-basics.html).<br>
@@ -148,12 +155,12 @@ Follow the YouTube video in this [link][youtube link to create and configure EC2
 	docker run -p 3000:3000 kailany099/photo-site:latest
 	```
      If you've done the above steps correct you should see the following in terminal:<br>
-     ![pull success](pics-readme/terminal-success.JPG)
+     ![pull success](pics-readme/terminal-success.jpeg)
 	You're instance is now live with the docker image, to access it, locate your instance IPv4 address from AWS's website and combine it with port 3000 to access your Ruby wesite using the cloud<br> 
      Link for me is: [http://54.189.117.184:3000](http://54.189.117.184:3000) <br>
      
      After accessing your instance using the above [link](http://54.189.117.184:3000), you can monitor usage of your instance on Amazon AWS console as seen below:<br>
-     ![instance usage](pics-readme/instance-usage.JPG)
+     ![instance usage](pics-readme/instance-usage.jpeg)
      
 	
 ## 3. Things that are not working
