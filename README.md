@@ -58,7 +58,7 @@ Follow the YouTube video in this [link](youtube link to create and configure EC2
      #Default command
      CMD ["rails", "server", "-b", "0.0.0.0"]
 	```
-	Docker's official site on setting up Dockerfile's [link](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/).<br>
+	Docker's official site on setting up Dockerfiles [link](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/).<br>
 
 2. Next up, we build our docker image using the following command<br>
 	```
