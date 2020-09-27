@@ -23,7 +23,7 @@ The second URL (**photo/index/:id**) contains the profile of that specific user 
 
 
 **Creating the EC2 instance** <br>
-Follow the YouTube video in this [link](https://youtu.be/gT-Uw3nV728) <br>
+Follow the YouTube video in this [link](https://youtu.be/8j3FEZQGYTo) <br>
 
 <a name = "create-docker-container" /> <br>
 
@@ -174,7 +174,7 @@ Thankfully everything in my environment is working, so I have no input for this 
 <a name = "4-youtube-walkthrough" /> <br>
 
 ## 4. YouTube Video demoing the PhotoSite working
-Please watch this [link](https://youtu.be/gT-Uw3nV728)<br>
+Please watch this [link](https://youtu.be/8j3FEZQGYTo)<br>
 
 <a name = "5-adv---what-happens-when-an-instance-stops-running-what-shall-i-do" /> <br>
 
