@@ -151,13 +151,13 @@ Follow the YouTube video in this [link](youtube link to create and configure EC2
 	```
 	docker pull kailany099/photo-site:latest
 	```
-	2. Now we can use the following command to 
+	2. Now we can use the following command to run your docker image on the instance
 	```
 	docker run -p 3000:3000 kailany099/photo-site:latest
 	```
-     If you've done the above steps correct you should see the following in terminal:<br>
+     If you've done the above steps correctly you should see the following in terminal:<br>
      ![pull success](pics-readme/terminal-success.jpeg)
-	You're instance is now live with the docker image, to access it, locate your instance IPv4 address from AWS's website and combine it with port 3000 to access your Ruby wesite using the cloud<br> 
+	You're instance is now live with the docker image, to access it, locate your instance IPv4 address from AWS's website and combine it with port 3000 to access your Ruby website using the cloud<br> 
      Link for me is: [http://54.189.117.184:3000](http://54.189.117.184:3000) <br>
      
      After accessing your instance using the above [link](http://54.189.117.184:3000), you can monitor usage of your instance on Amazon AWS console as seen below:<br>
